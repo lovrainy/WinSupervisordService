@@ -1,0 +1,9 @@
+{
+  "Name": "supervisord",
+  "DisplayName": "supervisord for telegraf",
+  "Description": "Run the telegraf",
+  "Exec": "C:\\test\\supervisord.exe",
+  "Args": ["-c","C:\\test\\supervisor.conf"],
+  "Stderr": "C:\\test\\supervisordBackground_err.log",
+  "Stdout": "C:\\test\\supervisordBackground_out.log"
+}
